@@ -22,3 +22,8 @@ _testmain.go
 *.exe
 *.test
 *.prof
+node_modules
+dist
+.tmp
+.sass-cache
+bower_components

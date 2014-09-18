@@ -1,0 +1,18 @@
+<table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>account</th>
+      <th>ip</th>
+      <th>hits</th>
+      <th>date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="row in records">
+      <td>{{row.email || none}}</td>
+      <td>{{row.ip || none}}</td>
+      <td>{{row.count}}</td>
+      <td>{{row.date}}</td>
+    </tr>
+  </tbody>
+</table>
